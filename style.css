@@ -1,0 +1,149 @@
+*{
+   padding: 0;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+ .container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#nav-bar{
+ background-color: rgb(4, 82, 82);
+ padding: 30px 10px;
+ border-bottom:2.5px solid orangered;
+ }
+
+
+
+#nav-bar h1{
+    float: left;
+  
+    font-size: 32px;
+}
+
+#nav-bar h1 span{
+    font-size: 32px;
+    color: orangered;
+}
+
+#nav-bar ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+
+#nav-bar ul li {
+    display: inline-block;
+    margin:5px 15px;
+    
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    
+}
+
+#nav-bar ul li a:hover{
+    color:orangered;
+}
+
+#main{
+    background: url("./img/showcase.jpg") no-repeat  0px -450px ;
+    min-height: 400px;
+}
+
+
+#main h1{
+  margin-top:100px ;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#main p{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#subscribe{
+    background-color:rgb(4, 82, 82) ;
+    padding: 30px 10px;
+}
+
+#subscribe h2{
+    margin-top:4px;
+    float: left;
+    font-size: 22px;
+}
+
+#subscribe .s-right {
+    float: right;
+    
+}
+
+.s-right input[type=email]{
+    padding: 8px 10px;
+    font-size: 16px;
+    border:0;
+    color: black;
+}
+
+
+.s-right input[type=button]{
+    background-color: orangered;
+    border:0;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+#images p,h3 {
+    color:black;
+}
+
+
+#images .box p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+
+
+#images .box img{
+    width: 90px;
+    height:90px;
+    
+}
+
+#images .box{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin:30px 0px;
+}
+
+#images .box h3{
+    margin: 20px 10px;
+    text-align: center;
+}
+
+#images {clear: both;}
+
+#footer{
+    background-color: orangered;
+    padding: 30px;
+    padding-left:350px;
+    font-size: 15px;
+}
+
+#footer p{
+    font-size: 16px;
+}
