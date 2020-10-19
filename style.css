@@ -104,6 +104,10 @@
     font-size: 16px;
 }
 
+#images{
+	padding:50px;
+}
+
 #images p,h3 {
     color:black;
 }
